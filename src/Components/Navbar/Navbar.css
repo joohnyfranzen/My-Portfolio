@@ -3,6 +3,7 @@ nav{
     display: flex;
     justify-content: end;
     width: 100%;
+    position: fixed;
 }
 .nav{
     width: 30%;
