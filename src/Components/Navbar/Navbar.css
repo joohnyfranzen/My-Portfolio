@@ -1,5 +1,27 @@
 nav{
     top: 0;
-    border: 1px solid black;
-    height: 300px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
+.nav{
+    width: 30%;
+}
+.nav ul {
+    display:flex ;
+}
+.nav ul li{
+    margin: 0 20px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    border-bottom: 2px solid transparent;
+}
+.nav ul li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
