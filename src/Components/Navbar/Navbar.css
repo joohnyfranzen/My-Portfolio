@@ -1,28 +1,32 @@
 nav{
-    top: 0;
-    display: flex;
-    justify-content: end;
-    width: 100%;
+    bottom: 0;
+    justify-content: flex-start;
     position: fixed;
+    display:flex ;
+    
 }
 .nav{
-    width: 30%;
+    display:flex ;
+    background-color: rgb(23, 23, 23);
+    width: 150px;
 }
 .nav ul {
-    display:flex ;
+    display: inline ;
+    background-color: rgb(23, 23, 23);
 }
 .nav ul li{
-    margin: 0 20px;
-    list-style: none;
+    display: flex;
+    margin: 10px 0 auto;
+    background-color: rgb(23, 23, 23);
+
 }
 .nav ul li a{
     text-decoration: none;
     font-size: 20px;
-    color: rgb(50, 50, 50);
-    border-bottom: 2px solid transparent;
+    color: rgb(70, 70, 70);
+    background-color: rgb(23, 23, 23);
 }
 .nav ul li a:hover{
-    color: black;
-    border-bottom: 2px solid black;
+    color: rgb(120, 120, 120);
 }
 
