@@ -2,11 +2,15 @@ import "./Home.css"
 export default function Home() {
     return(
         <div>
+            <div className="border-effect">
+                <span className="light-effect">.</span>
+                <div className="effect">Hello World</div>
+            </div>
             <div className="name-container">
                 <div className="in-container">
                     <h1>Hi, <br/>
                         I´m Jonathan, <br/> 
-                        a fullstack Web developer.
+                        a fullstack <span className="web">Web</span> developer.
                     </h1>
                     <div className="down-container">
                         <p>
@@ -20,7 +24,8 @@ export default function Home() {
                             </p>
                     </div>
                 </div>
-            </div>            
+            <div className="home-img"><img src="/moon.jpg" alt="" /></div>        
+            </div>    
         </div>
     )
 }
