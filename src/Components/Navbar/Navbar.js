@@ -4,7 +4,7 @@ import "./Navbar.css"
 
 export default function Navbar() {
     return(
-        <nav>
+        <div className="navbar">
             <div className="nav">
                 <ul>
                     <li>
@@ -21,7 +21,7 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </div>
     )
 
 }
