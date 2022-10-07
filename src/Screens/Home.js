@@ -2,10 +2,6 @@ import "./Home.css"
 export default function Home() {
     return(
         <div>
-            <div className="border-effect">
-                <span className="light-effect">.</span>
-                <div className="effect">Hello World</div>
-            </div>
             <div className="name-container">
                 <div className="in-container">
                     <h1>Hi, <br/>
