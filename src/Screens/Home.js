@@ -5,7 +5,7 @@ export default function Home() {
             <div className="name-container">
                 <div className="in-container">
                     <h1>Hi, <br/>
-                        I´m Jonathan, <br/> 
+                        I´m <span id="name">Jonathan</span>, <br/> 
                         a fullstack <span className="web">Web</span> developer.
                     </h1>
                     <div className="down-container">
