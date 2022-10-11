@@ -1,0 +1,33 @@
+.main-about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    color: white;
+    height: 50vh;
+    width: 50vw;
+    
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: large;
+    bottom: 0;
+}
+.paragraph{
+    height: 80%;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    font-weight: 300;
+    word-spacing: 10px;
+    line-height: 30px;
+    text-align: justify;
+}
