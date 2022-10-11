@@ -1,116 +1,50 @@
-
-.main-about{
-    width: 100%;
-    height: 120vh;
-    background-color: rgb(100, 100, 100);
-}
-.top-container{
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(100, 100, 100);
-}
-.top-container h1{
-    color: rgb(49, 49, 49);
-    padding-bottom: 10px;
-    font-weight: 300;
-    font-size: 35px;
-    background-color: rgb(100, 100, 100);
-}
-
-.profile-container{
-    width: 100%;
-    height: 50vh;
-}
-.profile{
-    background-color: rgb(100, 100, 100);
+body {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: black;
 }
 
-.img-container{
-    width: 22%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-.img-container img{
-    border-radius: 50%;
+.fade{
+    position: relative;
     width: 100%;
-    border-bottom: 5px solid black;
+    min-width: 60vh;
+    top: -25px;
+    background-image: linear-gradient(0deg, transparent, black 75%);
+    z-index: 1;
 }
 
-.resume-container{
-    width: 40%;
-    border: 1px solid rgb(22, 22, 22);
-    box-shadow: 3px 3px black;
-    height: 300px;    
-}
-
-.mostused h3{
-    width: 90%;
-    height: 5vh;
-    background-color: rgb(220, 220, 220);
-    margin: 20px;
+.star-wars {
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-weight: 300;
+    height: 800px;
+    perspective: 400px;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+    text-align: justify;
 }
 
-.container {    
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
-    margin-top: 0;
-    padding: 20px;
-    background-color: rgb(220, 220, 220);
-}
-.name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 20px;
-    padding: 8px;
-    background-color: rgb(220, 220, 220);  
-}
-.name h2{
-    background-color: rgb(220, 220, 220);
-    font-weight: 400;
+.crawl{
+    position: relative;
+    top: -100px;
+    transform-origin: 50% 100%;
+    animation: crawl 60s linear;
 }
 
-.resume{
-    display: inline;
-}
-.languages {
-    width: 30%;
-}
-.about {
-    width: 30%;
-}
+@keyframes crawl {
+    0% {
+        top: 0;
 
-.languages h3 {
-    background-color: rgb(220, 220, 220);
-    font-weight: 400;
-}
-.about h3 {
-    background-color: rgb(220, 220, 220);
-    font-weight: 400;
-}
-.languages p {
-    background-color: rgb(220, 220, 220);
-    font-weight: 300;
-}
-.about p {
-    background-color: rgb(220, 220, 220);
-    font-weight: 300;
+        transform: rotateX(20deg) translateZ(0);
+    }
+
+    100% {
+        top: -6000px;
+
+        transform: rotateX(30deg) translateZ(-2500px);
+    }
 }
