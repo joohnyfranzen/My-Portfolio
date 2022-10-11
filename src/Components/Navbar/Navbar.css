@@ -28,6 +28,8 @@
     font-weight: 300;
     color: rgb(70, 70, 70);
     background-color: rgb(23, 23, 23);
+    padding-bottom: 3px;
+    border-bottom: 3px solid transparent;
 }
 .nav1 ul li a:hover{
     color: rgb(120, 120, 120);
