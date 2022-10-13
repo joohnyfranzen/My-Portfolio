@@ -1,25 +1,82 @@
 .main-about{
     height: 100vh;
+    width: 150vw;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: start;
+    overflow: scroll;
 }
 .about{
+    margin-bottom: 5%;
+    display: flex;
     color: white;
-    height: 50vh;
-    width: 50vw;
-    
+    height: 100vh;
+    width: 95vw;
+    justify-content: space-between;
 }
 .items{
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    align-items: center;
     font-size: large;
-    bottom: 0;
 }
+.item-container{
+    border: 1px solid rgb(70, 70, 70);
+    background-color: rgb(40, 40, 40);
+    border-radius: 15px;
+    width: 25vw;
+    justify-content: center;
+}
+.item-container p{
+    margin: 5px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-color: rgb(30, 30, 30);
+    width: 80%;
+    cursor: pointer;
+}
+.item-container p:hover{
+    background-color: rgb(50, 50, 50);
+    border: 2px solid rgb(59, 59, 59);
+}
+.item-container-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(40, 40, 40);
+}
+.linkTo{
+    margin: 5px 0;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+.git{
+    margin: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+.item-container a:hover{
+    background-color: rgb(50, 50, 50);
+    border: 2px solid rgb(59, 59, 59);
+}
+
 .paragraph{
-    height: 80%;
-    width: 100%;
+    height: 100%;
+    width: 70%;
     font-size: 20px;
     display: flex;
     justify-content: center;
