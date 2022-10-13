@@ -1,7 +1,8 @@
+import ProjectsContainer from "../Components/Projects/ProjectsContainer"
 import "./Home.css"
 export default function Home() {
     return(
-        <div>
+        <div className="main-home">
             <div className="name-container">
                 <div className="in-container">
                     <h1>Hi, <br/>
@@ -21,7 +22,8 @@ export default function Home() {
                     </div>
                 </div>
             <div className="home-img"><img src="/moon.jpg" alt="" /></div>        
-            </div>    
+            </div>
+            <ProjectsContainer/>    
         </div>
     )
 }
