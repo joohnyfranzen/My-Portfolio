@@ -27,6 +27,9 @@
     width: 350px;
     border: 10px solid rgb(20, 20, 20);
 }
+.project p{
+    margin-bottom: 5px;
+}
 .project:hover img{
     animation: rotateX 2s linear;
 }
