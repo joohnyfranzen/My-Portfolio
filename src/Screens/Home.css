@@ -3,8 +3,9 @@
 }
 
 #name{
-    color: rgb(57, 120, 214);
+    color: rgb(49, 131, 170);
     font-weight: 500;
+    background-color: rgb(35, 35, 35);
 }
 .name-container{
     height: 80vh;
@@ -18,12 +19,17 @@
     color: rgb(240, 240, 240);
     font-size: 35px;
     font-weight: 400;
+    background-color: rgb(35, 35, 35);
+}
+.down-container{
+    background-color: rgb(35, 35, 35);
 }
 .down-container p{
     display: inline-flex;
     margin: 0 20px;
     font-size: 17px;
     color: rgb(150, 150, 150);
+    background-color: rgb(35, 35, 35);
 }
 
 .name-container h1:hover
@@ -42,6 +48,7 @@
     font-size: 45px;
     font-weight: 400;
     animation: myanimation 10s infinite;
+    background-color: rgb(35, 35, 35);
 }
 
 
