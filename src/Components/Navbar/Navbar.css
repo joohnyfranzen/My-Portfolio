@@ -9,7 +9,6 @@
 .nav1{
     padding: 7px;
     background-color: rgb(23, 23, 23);
-    border-radius: 5%;
     width: 100%;
 }
 .nav1 ul {
@@ -25,7 +24,7 @@
 }
 .nav1 ul li a{
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     color: rgb(70, 70, 70);
     background-color: rgb(23, 23, 23);
