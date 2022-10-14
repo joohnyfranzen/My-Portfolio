@@ -1,0 +1,124 @@
+*{
+    background-color: white;
+}
+.contact-card{
+    height: 100vh;
+    width: 100%;
+    flex: 1 1 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(35, 35, 35);  
+}
+.card {
+    border: 15px solid rgb(20, 20, 20);
+    border-radius: 30px;
+    background-color: rgb(35, 35, 35);
+    width: 25vw;
+    height: 500px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(36,110,161,1) 70%, rgba(15,93,138,1) 100%);     border-radius: 10px;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.photo-container{
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(36,110,161,1) 70%, rgba(15,93,138,1) 100%);     border-radius: 10px;
+    margin-bottom: 5px;
+    width: 70%;
+}
+.photo-container img {
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.card h1{
+    overflow: scroll;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.content{
+    background-color: transparent;
+}
+.content p{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 6px;
+    background-color: white;
+}
+.content i{
+    margin-right: 5px;
+    background-color: transparent;
+}
+.content a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+.contact-me{
+    background-color: rgb(35, 35, 35);
+    margin: 5px;
+    width: 30vw;
+    color: white;
+}
+.contact-me h2{
+    background-color: rgb(35, 35, 35);
+    margin: 10px;
+    font-size: 26px;
+    font-weight: 400;
+}
+.contact-me p{
+    background-color: rgb(35, 35, 35);
+    margin: 10px;
+    font-size: 19px;
+    font-weight: 300;
+}
+.whats-link{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.whats-link a{
+    padding: 12px 60px;
+    border: 2px solid rgb(13, 48, 80);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 23px;
+}
+.whats-link a i{
+    margin: 5px;
+}
+.buttons{
+    background-color: rgb(25, 25, 25);
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
+.button{
+    width: 10%;
+    height: 15px;
+    background-color: rgb(25, 25, 25);
+}
+.phone{
+    width: 15px;
+    color: rgb(150, 150, 150);
+    background-color: rgb(25, 25, 25);
+}
