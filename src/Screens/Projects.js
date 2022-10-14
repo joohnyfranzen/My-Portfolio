@@ -24,7 +24,6 @@ export default function Projects() {
     const [paragraphData, setParagraphData]=useState(paragraphs[0].value)
 
     const handleClick=(index)=>{
-        console.log(index)
         const paragraphSlider=paragraphs[index].value;
         setParagraphData(paragraphSlider)
     }
