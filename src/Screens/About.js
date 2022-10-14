@@ -8,9 +8,12 @@ export default function About() {
             <section className="star-wars">
                 <div className="crawl">
                     <div className="title">
-                        <h1>OLá mundo</h1>
+                        <h1>Chapter 1</h1>
                     </div>
-                    <p>asdhasudias ipsuin dolor asdhasudias ipsuin dolor asdhasudias ipsuin dolor asdhasudias ipsuin dolor asdhasudias ipsuin dolor asdhasudias ipsuin dolor</p>
+                    <p>A long long time ago...<br/>
+                        In a little blue planet,<br/>  there was a species, called, human beings<br/><br/>
+                        Our story talks about a little dreamer boy, called Jonathan
+                    </p>
                 </div>
             </section>
         </div>
