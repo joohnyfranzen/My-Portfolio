@@ -1,29 +1,29 @@
 .main-about{
     height: 100vh;
-    width: 150vw;
-    display: flex;
+    width: 100vw;
     align-items: center;
-    justify-content: start;
-    overflow: scroll;
+    background-color: rgb(35, 35, 35);
 }
 .about{
-    margin-bottom: 5%;
     display: flex;
     color: white;
     height: 100vh;
     width: 95vw;
     justify-content: space-between;
+    background-color: rgb(35, 35, 35);
 }
 .items{
     display: flex;
     align-items: center;
     font-size: large;
+    background-color: rgb(35, 35, 35);
+
 }
 .item-container{
-    border: 1px solid rgb(70, 70, 70);
+    border: 1px solid rgb(95, 95, 95);
     background-color: rgb(40, 40, 40);
     border-radius: 15px;
-    width: 25vw;
+    width: 30vw;
     justify-content: center;
 }
 .item-container p{
@@ -35,8 +35,9 @@
     border: 2px solid transparent;
     border-radius: 3px;
     background-color: rgb(30, 30, 30);
-    width: 80%;
+    width: 70%;
     cursor: pointer;
+    background-color: rgb(35, 35, 35);
 }
 .item-container p:hover{
     background-color: rgb(50, 50, 50);
@@ -46,6 +47,11 @@
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(40, 40, 40);
+    background-color: rgb(35, 35, 35);
+}
+.item-container-2 a{
+    border: 2px solid rgb(75, 75, 75);
+    padding: 5px;
 }
 .linkTo{
     margin: 5px 0;
@@ -55,9 +61,10 @@
     padding: 3px;
     border: 2px solid transparent;
     border-radius: 3px;
-    background-color: rgb(30, 30, 30);
     color: white;
+    background-color: rgb(35, 35, 35);
 }
+
 .git{
     margin: 5px;
     margin-left: 5px;
@@ -68,6 +75,7 @@
     border-radius: 3px;
     background-color: rgb(30, 30, 30);
     color: white;
+    background-color: rgb(35, 35, 35);
 }
 .item-container a:hover{
     background-color: rgb(50, 50, 50);
@@ -76,7 +84,7 @@
 
 .paragraph{
     height: 100%;
-    width: 70%;
+    width: 65%;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -87,4 +95,9 @@
     word-spacing: 10px;
     line-height: 30px;
     text-align: justify;
+    background-color: rgb(35, 35, 35);
+}
+.icon{
+    background-color: rgb(35, 35, 35);
+    color: white;
 }
