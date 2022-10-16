@@ -1,6 +1,7 @@
+
 .about-main {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     background-color: black;
 }
@@ -21,7 +22,7 @@
     perspective: 400px;
     color: #feda4a;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 800%;
+    font-size: 900%;
     font-weight: 600;
     letter-spacing: 6px;
     line-height: 150%;
@@ -37,7 +38,6 @@
     display: none;    
     top: 1500px;
     transform: rotateX(20deg) translateZ(0);
-
 }
 .crawl p{
     background-color: black;
@@ -55,6 +55,8 @@
     justify-content: center;
     background-color: black;
     margin-top: 20px;
+    height: 500px;
+    overflow-y: scroll;
 }
 .chapters{
     background-color: rgb(0, 0, 0);
@@ -73,18 +75,18 @@
 }
 .animation-crawl{
     display: block;
-    animation: crawl 50s linear;
+    animation: crawl 100s linear;
 }
 @keyframes crawl {
     0% {
-        top: 1000px;
+        top: 500px;
 
-        transform: rotateX(20deg) translateZ(0);
+        transform: rotateX(8deg) translateZ(0);
     }
 
     100% {
-        top: -7000px;
+        top: -28000px;
 
-        transform: rotateX(30deg) translateZ(-2000px);
+        transform: rotateX(13deg) translateZ(-6000px);
     }
 }
