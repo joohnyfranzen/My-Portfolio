@@ -22,7 +22,7 @@
     perspective: 400px;
     color: #feda4a;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 900%;
+    font-size: 800%;
     font-weight: 600;
     letter-spacing: 6px;
     line-height: 150%;
@@ -63,6 +63,9 @@
 }
 .chapter p{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     padding: 10px;
     border-radius: 10px;
