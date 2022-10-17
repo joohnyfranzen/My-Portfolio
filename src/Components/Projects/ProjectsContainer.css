@@ -34,20 +34,21 @@
     font-weight: 400;
 }
 .project-img{
-    width: 40vw;
+    width: 550px;
     display: flex;
     justify-content: center;
     background-color: rgb(35, 35, 35);
 }
+
 .project-img img{
-    transition: 1s width;
+    transition: 0.5s width;
     background-color: rgb(35, 35, 35);
     border-radius: 10px;
     border: 10px solid rgb(20, 20, 20);
     width: 400px;
 }
 .project-img img:hover{
-    width: 600px;
+    width: 550px;
 }
 .project p{
     margin-bottom: 5px;
