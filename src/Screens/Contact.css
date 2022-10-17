@@ -89,7 +89,7 @@
 .whats-link{
     background-color: rgb(35, 35, 35);
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-top: 30px;
 }
 .whats-link a{

@@ -3,7 +3,6 @@
     display:flex ;
     bottom: 0px;
     width: 100%;
-    align-items: end;
     z-index: 1000;
 }
 .nav1{
