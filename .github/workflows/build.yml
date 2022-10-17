@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -15,7 +15,6 @@ jobs:
           node-version: '18.x'
       - name: Build web-app
         run: |
-          npm i fsevents@latest -f --save-optional
           npm ci
           npm run build
       - name: Deploy to gh-pages
