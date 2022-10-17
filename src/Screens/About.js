@@ -118,7 +118,7 @@ export default function About() {
                         <p onClick={()=>handleChapter(5)}>Chapter Six</p>
                     </div>
                     <div className="chapter">
-                        <p onClick={()=>handleChapter(6)}>Chapter Seventh</p>
+                        <p onClick={()=>handleChapter(6)}>Chapter Seven</p>
                     </div>
                     <div className="chapter">
                         <p onClick={()=>handleChapter(7)}>Chapter Eight</p>
