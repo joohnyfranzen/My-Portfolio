@@ -21,7 +21,7 @@ export default function Home() {
                             </p>
                     </div>
                 </div>
-            <div className="home-img"><img src="/moon.jpg" alt="" /></div>        
+            <div className="home-img"><img src="moon.jpg" alt="moon" /></div>        
             </div>
             <ProjectsContainer/>    
         </div>
